@@ -322,28 +322,22 @@
                 <br />
             </li>
             <li>
-                <h4>Araç numarası belirlenen konteynerleri belirlenen sayıda kümelere ayırarak listeleme : [HttpGet("GetClusteredContainers/{vehicleId}/{clusterCount}")] GetClusteredContainers(long? vehicleId, int clusterCount)</h4>
+                <h4>Araç numarası belirlenen konteynerleri küme başına maksimum eleman sayısını belirterek ayırıp listeleme : [HttpGet("GetClusteredContainers/{vehicleId}/{maxElementsPerCluster}")] GetClusteredContainers(long? vehicleId, int maxElementsPerCluster)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
-                        <img src="https://i.hizliresim.com/oc73rhj.png" alt="Swagger" style="max-width: 100%;">
+                        <img src="https://i.hizliresim.com/koc96cj.png" alt="Swagger" style="max-width: 100%;">
                     </a>
                 </p>
                 <br />
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
-                        <img src="https://i.hizliresim.com/3rgud8t.png" alt="Swagger" style="max-width: 100%;">
+                        <img src="https://i.hizliresim.com/rcr8sve.png" alt="Swagger" style="max-width: 100%;">
                     </a>
                 </p>
                 <br />
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
-                        <img src="https://i.hizliresim.com/fg0188f.png" alt="Swagger" style="max-width: 100%;">
-                    </a>
-                </p>
-                <br />
-                <p dir="auto">
-                    <a target="_blank" rel="noopener noreferrer" href="">
-                        <img src="https://i.hizliresim.com/g170391.png" alt="Swagger" style="max-width: 100%;">
+                        <img src="https://i.hizliresim.com/bg7g90z.png" alt="Swagger" style="max-width: 100%;">
                     </a>
                 </p>
                 <br />
