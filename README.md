@@ -1,4 +1,4 @@
-<i>🌟 PayCore .NET Core Bootcamp - 3. Hafta</i>
+<i>🌟 PayCore .NET Core Bootcamp - 3rd Week</i>
 
 <hr />
 <h2>🧐 About The Project</h2>
