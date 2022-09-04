@@ -1,21 +1,21 @@
 <i>🌟 PayCore .NET Core Bootcamp - 3. Hafta</i>
 
 <hr />
-<h2>🧐 Proje Hakkında</h2>
+<h2>🧐 About The Project</h2>
 <ul>
-    <li>.NET 6 ile geliştirilmiş bir ASP.NET Web API projesidir.</li>
-    <li>Sınıflara ve barındırdığı özelliklere dair açıklamalar her dosyanın içerisinde yorum satırlarında detaylı olarak belirtilmiştir.</li>
-    <li>Katmanlı bir yapı izlenerek oluşturulmuştur.</li>
-    <li><a href="https://www.postgresql.org" target="_blank">PostgreSQL</a> veri tabanı kullanılmıştır.</li>
-    <li><a href="https://nhibernate.info" target="_blank">NHibernate</a> ORM aracından yararlanılmıştır.</li>
-        <li>Gerekli validasyon işlemleri <a href="https://fluentvalidation.net">FluentValidation</a> kütüphanesi kullanılarak gerçekleştirilmiştir.</li>
-    <li>Veri transferiyle güvenliğin sağlanması <a href="https://docs.automapper.org/en/stable/">AutoMapper</a> kütüphanesi aracılığıyla yapılmıştır.</li>
-    <li>Bütün action metodlarına ait ekran görüntülü sonuçlar en aşağıda yer almaktadır.</li>
-    <li>Veritabanına ait script kodlarına <a href="https://pastebin.com/pk7mtrZz" target="_blank">bu linkten</a> erişilebilir. (VPN gerekebilir.)</li>
+    <li>An ASP.NET Web API project developed with .NET 6.</li>
+    <li>The explanations about the classes and the features they contain were detailed in the comment lines in each file.</li>
+    <li>Was created by following the N-Tier architecture.</li>
+    <li><a href="https://www.postgresql.org" target="_blank">PostgreSQL</a> database was used.</li>
+    <li><a href="https://nhibernate.info" target="_blank">NHibernate</a>ORM tool was used.</li>
+    <li>Necessary validation processes were performed using the <a href="https://fluentvalidation.net">FluentValidation</a> library.</li>
+    <li>Ensuring security with data transfer is done through the <a href="https://docs.automapper.org/en/stable/">AutoMapper</a> library.</li>
+    <li>Screenshot results of all action methods are at the bottom.</li>
+    <li>The script codes of the database can be accessed from <a href="https://pastebin.com/pk7mtrZz" target="_blank">this link</a>. (VPN may be required.)</li>
 </ul>
 
 <hr />
-<h2>💻 Proje Yapısı</h2>
+<h2>💻 Project Structure</h2>
 <ul>
     <li>Core
         <ul>
@@ -190,10 +190,10 @@
 </ul>
 
 <hr />
-<h2><b>📒 Veritabanı Tablo ve Kolon Şeması</b></h2>
+<h2><b>📒 Database Table and Column Presentation</b></h2>
 <ul>
     <li>
-        <h3>🌟 Araçlar (vehicles) tablosu</h3>
+        <h3>🌟 Vehicle Table</h3>
         <p dir="auto">
             <a target="_blank" rel="noopener noreferrer" href="">
                 <img src="https://i.hizliresim.com/92c310o.png" alt="Swagger" style="max-width: 100%;">
@@ -201,7 +201,7 @@
         </p>
     </li>
     <li>
-        <h3>🌟 Konteynerler (containers) tablosu</h3>
+        <h3>🌟 Container Table</h3>
         <p dir="auto">
             <a target="_blank" rel="noopener noreferrer" href="">
                 <img src="https://i.hizliresim.com/3nrvd5f.png" alt="Swagger" style="max-width: 100%;">
@@ -209,7 +209,7 @@
         </p>
     </li>
     <li>
-        <h3>🌟 Araçlar (vehicles) tablosuna ait id kolonunun özellikleri</h3>
+        <h3>🌟 Properties of the id column of the vehicle table</h3>
         <p dir="auto">
             <a target="_blank" rel="noopener noreferrer" href="">
                 <img src="https://i.hizliresim.com/qa9aw1d.png" alt="Swagger" style="max-width: 100%;">
@@ -217,7 +217,7 @@
         </p>
     </li>
     <li>
-        <h3>🌟 Konteynerler (containers) tablosuna ait id kolonunun özellikleri</h3>
+        <h3>🌟 Properties of the id column of the container table</h3>
         <p dir="auto">
             <a target="_blank" rel="noopener noreferrer" href="">
                 <img src="https://i.hizliresim.com/h3c2anq.png" alt="Swagger" style="max-width: 100%;">
@@ -227,10 +227,10 @@
 </ul>
 
 <hr />
-<h2><b>👨‍💻 Sonuçlara Ait Ekran Görüntüleri</b></h2>
+<h2><b>👨‍💻 Screenshots of Results</b></h2>
 <ul>
     <li>
-        <h3>🌟 Tüm İşlemler</h3>
+        <h3>🌟 All Actions in Swagger</h3>
         <p dir="auto">
             <a target="_blank" rel="noopener noreferrer" href="">
                 <img src="https://i.hizliresim.com/7brp0g9.png" alt="Swagger" style="max-width: 100%;">
@@ -238,10 +238,10 @@
         </p>
     </li>
     <li>
-        <h3>🌟 Araç İşlemleri (VehiclesController)</h3>
+        <h3>🌟 Vehicle Actions (VehiclesController)</h3>
         <ul>
             <li>
-                <h4>⭐ Tüm araçları listeleme : [HttpGet] GetAll()</h4>
+                <h4>⭐ Listing all vehicles : [HttpGet] GetAll()</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/8jgi9y8.png" alt="Swagger" style="max-width: 100%;">
@@ -250,7 +250,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Id'ye göre araç araması yapma : [HttpGet("{id}")] Get(long? id)</h4>
+                <h4>⭐ Searching a vehicle by Id : [HttpGet("{id}")] Get(long? id)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/58o96s5.png" alt="Swagger" style="max-width: 100%;">
@@ -265,7 +265,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Yeni bir araç ekleme : [HttpPost] Add([FromBody] VehicleDto dto)</h4>
+                <h4>⭐ Adding a new vehicle : [HttpPost] Add([FromBody] VehicleDto dto)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/tk8dl2y.png" alt="Swagger" style="max-width: 100%;">
@@ -280,7 +280,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Mevcut bir aracı güncelleme : [HttpPut] Update(long? id, [FromBody] VehicleDto dto)</h4>
+                <h4>⭐ Updating a vehicle : [HttpPut] Update(long? id, [FromBody] VehicleDto dto)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/75cdycg.png" alt="Swagger" style="max-width: 100%;">
@@ -295,7 +295,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Id'si belirlenen bir aracı konteynerleri ile birlikte silme : [HttpDelete("{id}")] Delete(long? id)</h4>
+                <h4>⭐ Deleting a vehicle with a specified Id along with its containers : [HttpDelete("{id}")] Delete(long? id)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/4b0p8x5.png" alt="Swagger" style="max-width: 100%;">
@@ -324,10 +324,10 @@
         </ul>
     </li>
     <li>
-        <h3>🌟 Konteyner İşlemleri (ContainersController)</h3>
+        <h3>🌟 Container Actions (ContainersController)</h3>
         <ul>
             <li>
-                <h4>⭐ Tüm konteynerleri listeleme : [HttpGet] GetAll()</h4>
+                <h4>⭐ Listing all containers : [HttpGet] GetAll()</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/izl2uyd.png" alt="Swagger" style="max-width: 100%;">
@@ -336,7 +336,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Id'ye göre konteyner araması yapma : [HttpGet("{id}")] GetById(long? id)</h4>
+                <h4>⭐ Searching a container by Id : [HttpGet("{id}")] GetById(long? id)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/b2feztm.png" alt="Swagger" style="max-width: 100%;">
@@ -351,7 +351,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Araç numarasına göre konteynerları listeleme : [HttpGet("GetContainersByVehicleId/{vehicleId}")] GetContainersByVehicleId(long? vehicleId)</h4>
+                <h4>⭐ Listing containers by vehicle Id : [HttpGet("GetContainersByVehicleId/{vehicleId}")] GetContainersByVehicleId(long? vehicleId)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/la6jir3.png" alt="Swagger" style="max-width: 100%;">
@@ -366,7 +366,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Araç numarası belirlenen konteynerleri küme başına maksimum eleman sayısını belirterek ayırıp listeleme : [HttpGet("{vehicleId}/{maxElementsPerCluster}")] GetClusteredContainers(long? vehicleId, int maxElementsPerCluster)</h4>
+                <h4>⭐ Listing and clustering containers by vehicle number and max elements per cluster : [HttpGet("{vehicleId}/{maxElementsPerCluster}")] GetClusteredContainers(long? vehicleId, int maxElementsPerCluster)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/koc96cj.png" alt="Swagger" style="max-width: 100%;">
@@ -387,7 +387,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Yeni bir konteyner ekleme : [HttpPost] Add([FromBody] ContainerDto dto)</h4>
+                <h4>⭐ Adding a new container : [HttpPost] Add([FromBody] ContainerDto dto)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/o2emk9b.png" alt="Swagger" style="max-width: 100%;">
@@ -401,7 +401,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Mevcut bir konteyneri güncelleme : [HttpPut] Update(long? id, [FromBody] ContainerDto dto)</h4>
+                <h4>⭐ Updating a container : [HttpPut] Update(long? id, [FromBody] ContainerDto dto)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/jkzyt4w.png" alt="Swagger" style="max-width: 100%;">
@@ -416,7 +416,7 @@
                 <br />
             </li>
             <li>
-                <h4>⭐ Id'si belirlenen bir konteyneri silme : [HttpDelete("{id}")] DeleteContainer(long? id)</h4>
+                <h4>⭐ Deleting a container : [HttpDelete("{id}")] DeleteContainer(long? id)</h4>
                 <p dir="auto">
                     <a target="_blank" rel="noopener noreferrer" href="">
                         <img src="https://i.hizliresim.com/t2dr2lf.png" alt="Swagger" style="max-width: 100%;">
