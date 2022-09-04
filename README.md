@@ -7,7 +7,7 @@
     <li>The explanations about the classes and the features they contain were detailed in the comment lines in each file.</li>
     <li>Was created by following the N-Tier architecture.</li>
     <li><a href="https://www.postgresql.org" target="_blank">PostgreSQL</a> database was used.</li>
-    <li><a href="https://nhibernate.info" target="_blank">NHibernate</a>ORM tool was used.</li>
+    <li><a href="https://nhibernate.info" target="_blank">NHibernate</a> ORM tool was used.</li>
     <li>Necessary validation processes were performed using the <a href="https://fluentvalidation.net">FluentValidation</a> library.</li>
     <li>Ensuring security with data transfer is done through the <a href="https://docs.automapper.org/en/stable/">AutoMapper</a> library.</li>
     <li>Screenshot results of all action methods are at the bottom.</li>
